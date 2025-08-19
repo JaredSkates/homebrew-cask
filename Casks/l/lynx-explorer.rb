@@ -13,5 +13,5 @@ cask "lynx-explorer" do
   homepage "https://lynxjs.org"
 
   # Assuming the tarball unpacks a top-level "LynxExplorer.app"
-  app "LynxExplorer.app"
+  app "LynxExplorer-#{arch}.app"
 end
