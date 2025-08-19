@@ -8,7 +8,7 @@ cask "lynx-explorer" do
   url "https://example.com/releases/LynxExplorer-#{arch}.app.tar.gz",
   
 
-  name "Lynx Explorer"
+  name ["LynxExplorer"]
   desc "Empower the Web community and invite more to build across platforms."
   homepage "https://lynxjs.org"
 
