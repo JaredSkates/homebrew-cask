@@ -12,6 +12,8 @@ cask "lynx-explorer" do
   desc "Empower the Web community and invite more to build across platforms."
   homepage "https://lynxjs.org"
 
+  container type: :tar
+
   # Assuming the tarball unpacks a top-level "LynxExplorer.app"
-  app "LynxExplorer-#{arch}.app"
+  app "LynxExplorer-3.3.1/LynxExplorer-#{arch}.app"
 end
